@@ -1,0 +1,278 @@
+<DOCTYPE html>
+
+<html lang="en">
+
+
+	<head>
+
+		<meta charset="UTF-8">
+		<title> Technology 
+		</title>
+		<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.4/jquery.min.js"></script>
+		<link rel="shortcut icon" href="treeicon.ico" type="image/x-icon">
+		<link rel="stylesheet" type="text/css" href="Design.css">
+		<script type="text/javascript">
+			document.createElement("article");
+			document.createElement("aside");
+			document.createElement("footer");
+			document.createElement("main");
+			document.createElement("nav");
+			document.createElement("section");
+		</script>
+
+		
+	</head>
+	
+	<body>
+			<nav>
+				<ul>
+					<li><a href="news.html">News</a></li>
+					<p class="selected_link">Portfolio</p>
+					<li><a href="about.html">About</a></li>
+				</ul>
+			</nav>
+			
+			<aside>
+				<h2><a href="#prj_0">Zero Project</a></h2>
+				<h2><a href="#prj_1">First Project</a></h2>
+				<h2><a href="#prj_2">Second Project</a></h2>
+				<h2><a href="#prj_3">Third Project</a></h2>
+			</aside>
+			
+
+			
+			<main class="main_class portfolio_class">
+			
+			
+
+			
+			<section>
+			
+				
+			
+			<!-- comment -->
+				<article>
+					<header>
+						<h3><a name=prj_3> This is where the newest project will be listed</a></h3>
+						<p class="primary_info"> Primary Info </p>
+						<button id="click_prj_3">Click here for more information.</button>
+
+					</header>
+					<div id="proj_3" class="project">
+						<div class="project_content">
+							<div class="project_header">
+								<span class="close_3">x</span>
+								<h2>Project 3</h2>
+							</div>
+							<div class="project_body">
+									<p>	Tertiary information will be included here under its own class, in case it is needed.<br>
+										Included in this information is a description of the entirety of the project, whereas the reasons for smaller text is: <br>
+										For readability; <br> For clarity; <br> and so that the user may skim. 
+									</p>
+							</div>
+							<div class="project_footer">
+								<p class="secondary_info">(Brandon Westerman, 6/5/16)</p>
+							</div>
+						</div>
+					</div>
+									<spacer>
+
+				</article>
+				
+				<spacer>
+				
+				<article>
+					<header>
+						<h3><a name=prj_2> This is where the newest project will be listed</a></h3>
+						<p class="primary_info"> Primary Info </p>
+						<button id="click_prj_2">Click here for more information.</button>
+
+					</header>
+					<div id="proj_2" class="project">
+						<div class="project_content">
+							<div class="project_header">
+								<span class="close_2">x</span>
+								<h2>Project 2</h2>
+							</div>
+							<div class="project_body">
+									<p>	Tertiary information will be included here under its own class, in case it is needed.<br>
+										Included in this information is a description of the entirety of the project, whereas the reasons for smaller text is: <br>
+										For readability; <br> For clarity; <br> and so that the user may skim. 
+									</p>
+							</div>
+							<div class="project_footer">
+								<p class="secondary_info">(Brandon Westerman, 6/5/16)</p>
+							</div>
+						</div>
+					</div>
+						
+				
+									<spacer>
+
+				</article>
+				<spacer>
+
+				<article>
+					<header>
+						<h3><a name=prj_1> This is where the newest project will be listed</a></h3>
+						<p class="primary_info"> Primary Info </p>
+						<button id="click_prj_1">Click here for more information.</button>
+
+					</header>
+					<div id="proj_1" class="project">
+						<div class="project_content">
+							<div class="project_header">
+								<span class="close_1">x</span>
+								<h2>Project 1</h2>
+							</div>
+							<div class="project_body">
+									<p>	Tertiary information will be included here under its own class, in case it is needed.<br>
+										Included in this information is a description of the entirety of the project, whereas the reasons for smaller text is: <br>
+										For readability; <br> For clarity; <br> and so that the user may skim. 
+									</p>
+							</div>
+							<div class="project_footer">
+								<p class="secondary_info">(Brandon Westerman, 6/5/16)</p>
+							</div>
+						</div>
+					</div>
+						
+								<spacer>
+
+					
+				</article>
+ 
+ 				<spacer>
+
+		<!-- oldest project-->
+				<article>
+					<header>
+						<h3><a name=prj_0> This is where the newest project will be listed</a></h3>
+						<p class="primary_info"> Primary Info </p>
+						<button id="click_prj_0">Click here for more information.</button>
+
+					</header>
+					<div id="proj_0" class="project">
+						<div class="project_content">
+							<div class="project_header">
+								<span class="close_0">x</span>
+								<h2>Project 0</h2>
+							</div>
+							<div class="project_body">
+									<p>	Tertiary information will be included here under its own class, in case it is needed.<br>
+										Included in this information is a description of the entirety of the project, whereas the reasons for smaller text is: <br>
+										For readability; <br> For clarity; <br> and so that the user may skim. 
+									</p>
+							</div>
+							<div class="project_footer">
+								<p class="secondary_info">(Brandon Westerman, 6/5/16)</p>
+							</div>
+						</div>
+					</div>
+						
+				
+									<spacer>
+
+				</article>
+				
+
+			</section>
+			
+					<script>
+					//here is the code for my modal boxes that pop up with project info
+		
+			//third project button code
+	
+		
+		var modal_3 = document.getElementById("proj_3");
+		var btn_3 = document.getElementById("click_prj_3");
+		var span_3 = document.getElementsByClassName("close_3")[0];
+
+		
+		
+		btn_3.onclick = function() {
+			modal_3.style.display = "block";
+		}
+		
+		span_3.onclick = function() {
+			modal_3.style.display = "none";
+		}
+		
+
+
+		//second project button code
+		
+		var modal_2 = document.getElementById("proj_2");
+		var btn_2 = document.getElementById("click_prj_2");
+		var span_2 = document.getElementsByClassName("close_2")[0];
+		
+		btn_2.onclick = function() {
+			modal_2.style.display = "block";
+		}
+		
+		span_2.onclick = function() {
+			modal_2.style.display = "none";
+		}
+		
+
+
+
+
+		//first project button code
+		
+		var modal_1 = document.getElementById("proj_1");
+		var btn_1 = document.getElementById("click_prj_1");
+		var span_1 = document.getElementsByClassName("close_1")[0];
+		
+		btn_1.onclick = function() {
+			modal_1.style.display = "block";
+		}
+		
+		span_1.onclick = function() {
+			modal_1.style.display = "none";
+		}
+		
+
+		
+		
+		//null project button code
+		var modal_0 = document.getElementById("proj_0");
+		var btn_0 = document.getElementById("click_prj_0");
+		var span_0 = document.getElementsByClassName("close_0")[0];
+		
+		btn_0.onclick = function() {
+			modal_0.style.display = "block";
+		}
+		
+		span_0.onclick = function() {
+			modal_0.style.display = "none";
+		}
+		
+		window.onclick = function(event) {
+		if (event.target == modal_0) {
+			modal_0.style.display = "none";
+			}
+		if (event.target == modal_1) {
+			modal_1.style.display = "none";
+			}
+		if (event.target == modal_2) {
+			modal_2.style.display = "none";
+			}
+		if (event.target == modal_3) {
+			modal_3.style.display = "none";
+			}
+		}
+		
+		</script>
+			
+			</main>
+			
+
+		
+					
+					
+
+		
+			
+	</body>
+	
